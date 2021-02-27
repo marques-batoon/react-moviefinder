@@ -53,6 +53,9 @@ const checkStatus = (response) => {
   
     handleSubmit(event) {
       event.preventDefault();
+
+      $('form').nextAll().html(''); // Clears previous search entries if any
+      
       let { searchTerm } = this.state;
       searchTerm = searchTerm.trim();
       if (!searchTerm) {
