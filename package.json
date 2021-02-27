@@ -1,0 +1,24 @@
+{
+  "name": "react-moviefinder",
+  "version": "1.0.0",
+  "description": "Create a web page using React that allows the user to search for movies by a search term. Display the list of results similar to a search page such as Google.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MBatoon1996/react-moviefinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MBatoon1996/react-moviefinder/issues"
+  },
+  "homepage": "https://github.com/MBatoon1996/react-moviefinder#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
