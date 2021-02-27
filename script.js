@@ -93,7 +93,6 @@ var MovieFinder = function (_React$Component) {
 
       event.preventDefault();
 
-      $('form').nextAll().html(''); // Clears previous search entries if any
 
       var searchTerm = this.state.searchTerm;
 
